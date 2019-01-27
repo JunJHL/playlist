@@ -11,40 +11,46 @@ h1 {
 
 .column {
     width: 18%;
-    padding: 25px 0px;
+    padding: 100px 0px;
+    margin-left: 100px;
 }
 
 #images img {
     display: block;
     height: 100px;
     width: auto;
-    margin: 20px;
+    margin:20px;
 }
 
-#songs p {
+#songs p{
     font-size: 18px;
-    height: 100px;
+    height:100px;
     font-weight: bold;
     margin: 20px;
 }
 
 #artists p {
     font-size: 18px;
-    height: 100px;
+    height:100px;
     margin: 20px;
 }
 
 #lengths p {
     font-size: 16px;
-    height: 100px;
+    height:100px;
     margin: 20px;
-    text-align: right;
 }
 
-#links a {
+/*#links a{
     display: block;
     font-size: 18px;
-    height: 100px;
+    font-weight: bold;
+    margin: 20px;
+}*/
+
+#plays p{
+    font-size: 18px;
+    height:100px;
     font-weight: bold;
     margin: 20px;
 }
