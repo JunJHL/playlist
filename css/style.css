@@ -1,12 +1,18 @@
 h1 {
     text-align: center;
+    color: #ff7381;
 }
 
+body{
+    color:#9bca26;
+    background-color:#feff51;
+}
 #cart {
     display: flex;
     justify-content: center;
-    border-top: 5px solid black;
-    border-bottom: 5px solid black;
+    border-top: 5px solid #ff7381;
+    border-bottom: 5px solid #ff7381;
+    
 }
 
 .column {
@@ -20,6 +26,8 @@ h1 {
     height: 100px;
     width: auto;
     margin:20px;
+    border:2px solid;
+    border-color: #ff7381;;
 }
 
 #songs p{
@@ -41,19 +49,29 @@ h1 {
     margin: 20px;
 }
 
-/*#links a{
+#links a{
     display: block;
-    font-size: 18px;
-    font-weight: bold;
-    margin: 20px;
-}*/
-
-#plays p{
     font-size: 18px;
     height:100px;
     font-weight: bold;
     margin: 20px;
 }
+
+.i{
+    height:50%;
+    width:60%;	
+    border-color:#ffff4e;
+    border-radius:100%;
+    color:	#ff7381;
+    background-color:#ffff00;
+}
+
+/*#plays p{
+    font-size: 18px;
+    height:100px;
+    font-weight: bold;
+    margin: 20px;
+}*/
 
 #form {
     width: 75%;
@@ -63,10 +81,21 @@ h1 {
 
 input {
     padding: 5px 10px;
-    font-size: 14px;
+    font-size: 14px; 
+    border:1px solid #ff7381;
+    color:	#ff7381;
+}
+
+::placeholder{
+     color:	#ff7381;
 }
 
 button {
     font-size: 14px;
     padding: 5px 10px;
+    border-color:#ffff4e;
+    color:#227754;
+    background-color:#ffff00;
 }
+
+/*do animation of spinning if linking to iframe is possible
